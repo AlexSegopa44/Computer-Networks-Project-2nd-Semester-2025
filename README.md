@@ -6,7 +6,7 @@ Feature Implemented: Port Security
 
 Computer Networks project on cisco packet tracer which contains a variety of topologies, configuration of devices with IPv4 &amp; IPv6,VLAN segmentation including servers and implementation of port security on switches to control access to end devices.
 
-## 🧩 Part I – Network Topologies Design & Simulation
+## Part I – Network Topologies Design & Simulation
 
 ### Overview  
 This project demonstrates the design, configuration, and simulation of **five classic network topologies** — Bus, Star, Ring, Mesh, and Extended Star — and an integrated **Hybrid Topology** combining elements of all.  
@@ -21,7 +21,7 @@ All designs were created and simulated using **Cisco Packet Tracer**.
 
 ---
 
-### 🧱 Topologies Implemented
+### Topologies Implemented
 
 | No. | Topology | Description |
 |-----|-----------|-------------|
@@ -34,7 +34,7 @@ All designs were created and simulated using **Cisco Packet Tracer**.
 
 ---
 
-### 🌐 Hybrid Network Overview
+### Hybrid Network Overview
 
 | Feature | Description |
 |----------|-------------|
@@ -47,7 +47,7 @@ All designs were created and simulated using **Cisco Packet Tracer**.
 ---
 
 
-### 🧮 IP Addressing Table
+### IP Addressing Table
 
 | Device | Interface | IPv4 Address | Subnet Mask | IPv6 Address | VLAN | Role |
 |---------|------------|--------------|--------------|---------------|------|------|
