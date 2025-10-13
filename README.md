@@ -16,7 +16,7 @@ This project demonstrates the design, configuration, and simulation of **five cl
 
 The hybrid topology features:  
 - Dual Stack addressing (**IPv4 & IPv6**)  
-- **VLAN segmentation** for departments (Admin and Finance)  
+- **VLAN segmentation** for departments (Dr Office's,Ward Area,IT Department,Admin and Finance)  
 - Three dedicated servers (**DNS, DHCP, and Web**)  
 - Basic Layer 2 security using **Port Security**
 
@@ -55,7 +55,7 @@ All designs were created and simulated using **Cisco Packet Tracer**.
 | Device | Interface | IPv4 Address | Subnet Mask | IPv6 Address | VLAN | Role |
 |---------|------------|--------------|--------------|---------------|------|------|
 | Router1 G0/0 | gig0/0 | 192.168.10.1 | 255.255.255.0 | 2001:DB8:1::1/64 | 1 | Gateway |
-| Dr Shabangu PC | Fa0/1 | 192.162.10.5 | 255.255.255.0 | 2001:DB8:1::6/64 | 10 | Host |
+| Dr kheswa PC | Fa0/1 | 192.162.10.5 | 255.255.255.0 | 2001:DB8:1::6/64 | 10 | Host |
 | Dr Masiya PC | Fa0/1 | 192.168.10.4 | 255.255.255.0 | 2001:DB8:1::5/64 | 10 | Host |
 | Dr Ngwenya PC | Fa0/1 | 192.168.10.2 | 255.255.255.0 | 2001:DB8:1::3/64 | 10 | Host |
 | Offices DHCP Server | Fa0/1 | 192.168.10.11 | 255.255.255.0 | 2001:DB8:1::2/64 | 10 | Host |
