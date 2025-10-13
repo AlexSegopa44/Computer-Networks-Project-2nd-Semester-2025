@@ -133,10 +133,18 @@ Router(config-if)# ipv6 address 2001:DB8:20::1/64
 
 Router(config-if)# no shutdown
 
+
+
 VLAN Configuration
+
 Switch(config)# vlan 10
+
 Switch(config-vlan)# name Admin
+
 Switch(config)# vlan 20
+
 Switch(config-vlan)# name Finance
+
 Switch(config)# vlan 99
+
 Switch(config-vlan)# name Server_VLAN
