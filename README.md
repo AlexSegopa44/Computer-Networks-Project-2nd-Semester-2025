@@ -39,7 +39,7 @@ All designs were created and simulated using **Cisco Packet Tracer**.
 | Feature | Description |
 |----------|-------------|
 | **Addressing** | IPv4 and IPv6 (dual stack) |
-| **VLANs** | VLAN 10 – Dr's Offices, VLAN 11 – Hospital CEO,VLAN 13 - Access area, VLAN 14 - Ward Area, VLAN 15 - IT Department |
+| **VLANs** | VLAN 10, VLAN 11, VLAN 13, VLAN 14 , VLAN 15 |
 | **Servers** | DNS, DHCP, and Web servers configured and active |
 | **Security** | Port Security on all access ports |
 
