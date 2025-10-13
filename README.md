@@ -89,26 +89,48 @@ All designs were created and simulated using **Cisco Packet Tracer**.
 | **Testing** | Verified with successful IPv4/IPv6 ping and HTTP access |
 
 ##Configuration notes
+
+
 Router IP Addressing
+
 Router(config)# interface g0/0,1,2,3
+
 Router(config-if)# ip address 192.168.x.x 255.255.255.0
+
 Router(config-if)# no shutdown
+
+
 
 Port-Security Configuration
+
 Switch(config)# interface range fa0/1-6
+
 Switch(config-if-range)# switchport mode access
+
 Switch(config-if-range)# switchport port-security
+
 Switch(config-if-range)# switchport port-security maximum 1
+
 Switch(config-if-range)# switchport port-security mac-address sticky
+
 Switch(config-if-range)# switchport port-security violation shutdown
 
+
+
 IPv6 Configuration
+
 Router(config)# ipv6 unicast-routing
+
 Router(config)# interface g0/0
+
 Router(config-if)# ipv6 address 2001:DB8:10::1/64
+
 Router(config-if)# no shutdown
+
 Router(config)# interface g0/1
+
 Router(config-if)# ipv6 address 2001:DB8:20::1/64
+
 Router(config-if)# no shutdown
 
 VLAN Configuration
