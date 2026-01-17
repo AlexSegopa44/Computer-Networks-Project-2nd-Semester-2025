@@ -12,7 +12,7 @@ Computer Networks project on cisco packet tracer which contains a variety of top
 ## Part I – Network Topologies Design & Simulation
 
 ### Overview  
-This project demonstrates the design, configuration, and simulation of **five classic network topologies** — Bus, Star, Ring, Mesh, and Extended Star — and an integrated **Hybrid Topology** combining elements of all.  
+This project demonstrates the design, configuration, and simulation of **five classic network topologies** — Bus, Star, Ring, Mesh, and Extended Star — and an integrated **Hybrid Topology** combining elements of all and mimics a hospital network system.  
 
 The hybrid topology features:  
 - Dual Stack addressing (**IPv4 & IPv6**)  
